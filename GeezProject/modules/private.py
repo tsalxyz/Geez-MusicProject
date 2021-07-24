@@ -49,9 +49,7 @@ Saya Memiliki Banyak Fitur Seperti :
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Info Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
-                ]
-                ]
+                        "💬 Info Updates", url=f"https://t.me/{UPDATES_CHANNEL}")], 
             ]
         ),
         reply_to_message_id=message.message_id
