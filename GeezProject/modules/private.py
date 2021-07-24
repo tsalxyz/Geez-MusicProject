@@ -51,6 +51,7 @@ Saya Memiliki Banyak Fitur Seperti :
                     InlineKeyboardButton(
                         "💬 Info Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                 ]
+                ]
             ]
         ),
         reply_to_message_id=message.message_id
