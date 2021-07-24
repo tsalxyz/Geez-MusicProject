@@ -35,6 +35,8 @@ Saya Memiliki Banyak Fitur Seperti :
 • Mendownload Lagu.
 • Mencari Lagu Yang ingin di Putar atau di Download.
 • Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya.
+
+📌 Special Thanks to : {OWNER}
 </b>""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
@@ -48,9 +50,6 @@ Saya Memiliki Banyak Fitur Seperti :
                 [
                     InlineKeyboardButton(
                         "💬 Info Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
-                ],[
-                    InlineKeyboardButton(
-                        "📌 Special Thanks"", url=f"https://t.me/GeezSupportGroup")
                 ]
                 ]
             ]
