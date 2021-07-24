@@ -51,9 +51,7 @@ Saya Memiliki Banyak Fitur Seperti :
                 ],[
                     InlineKeyboardButton(
                         "📌 Special Thanks"", url=f"https://t.me/GeezSupportGroup")
-                ],[
-                    InlineKeyboardButton(
-                        "Edited By", url=f"https://t.me/salsyns")
+                ]
                 ]
             ]
         ),
@@ -161,9 +159,6 @@ async def reload(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "📌 Special Thanks", url=f"https://t.me/GeezSupportGroup"
-                    ),
-                    InlineKeyboardButton(
-                        "Edited By", url=f"https://t.me/salsyns"
                     )
                 ]
             ]
