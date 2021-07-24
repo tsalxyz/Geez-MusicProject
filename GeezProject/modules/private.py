@@ -31,12 +31,12 @@ async def start_(client: Client, message: Message):
         f"""<b>Hai [{}](tg://user?id={})\n
 Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
 Saya Memiliki Banyak Fitur Seperti :
-• Memutar Musik.
-• Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya.
+• Memutar Musik
+• Mendownload Lagu
+• Mencari Lagu Yang ingin di Putar atau di Download
+• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
 
-📌 Special Thanks to : {OWNER}
+📌 Special Thanks to : geez
 </b>""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
