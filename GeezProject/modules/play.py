@@ -669,7 +669,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
-                    + f"🎼 **Request Dari:** {message.from_user.mention}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                    reply_markup=keyboard)
        
     else:
@@ -689,7 +689,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Sedang Memutar\n" \
-                    + f"🎼 **Request Dari:** {message.from_user.mention}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                    reply_markup=keyboard)
 
     os.remove("final.png")
@@ -807,7 +807,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
-                    + f"🎼 **Request Dari:** {message.from_user.mention}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                    reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -829,7 +829,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Sedang Memutar\n" \
-                    + f"🎼 **Request Dari:** {message.from_user.mention}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                    reply_markup=keyboard,)
         os.remove("final.png")
         return await lel.delete()
@@ -924,7 +924,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="Info", url="https://t.me/infomusicsxyz")],
         ]
     )
     file_path = await convert(wget.download(url))
