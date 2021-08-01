@@ -1039,7 +1039,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
-                    + f"🎼 **Request Dari:** {r_by.name}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                    reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -1061,7 +1061,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             caption = f"🏷 **Judul:** [{title[:60]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Sedang Memutar\n" \
-                    + f"🎼 **Request Dari:** {r_by.name}",
+                    + f"🎼 **Request Dari:** {message.from_user.name}",
                     reply_markup=keyboard,
         )
         os.remove("final.png")
